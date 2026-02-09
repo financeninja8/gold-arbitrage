@@ -1,0 +1,52 @@
+# GoldArb - 黃金期貨套利監測系統
+# https://financeninja8.github.io/gold-arbitrage/
+
+# 允許所有爬蟲
+User-agent: *
+Allow: /
+
+# 歡迎 AI 搜尋引擎爬蟲
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Google 爬蟲
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing 爬蟲
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# 其他搜尋引擎
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Sitemap 位置
+Sitemap: https://financeninja8.github.io/gold-arbitrage/sitemap.xml
