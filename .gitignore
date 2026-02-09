@@ -1,0 +1,17 @@
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# IDE 設定
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 暫存檔案
+*.log
+*.tmp
+*.cache
+
+# 敏感設定 (如果有包含 API 密鑰)
+# api/config.local.php
